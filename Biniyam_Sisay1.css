@@ -1,0 +1,197 @@
+body{
+	margin: 0%;
+	background: rgb(35, 36, 36);
+}
+section.home{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img5.jpg");
+	
+	height: 1000px;
+	background-size: fill;
+	display: flex;
+	flex-direction: column;
+}
+section.about_me{
+	background-color: rgb(35, 36, 36);
+	
+
+}
+.top{
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+
+background: rgb(35, 36, 36);
+position: fixed;
+	
+
+
+}
+
+ul li.active a{
+	background-color:white;
+    color:black;
+}
+
+ul li{
+	position: relative;
+	
+	display:inline-flex;
+	
+}
+
+ul li a{
+
+	text-decoration:none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid transparent;
+    transition:0.6s ease;	
+}
+
+ul li a:hover{
+	background-color:white;
+    color:black;	
+}
+.main{
+	position:absolute;
+	display: flex;
+	flex-direction: column;
+	top:50%;
+	left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+.ac{
+	position: absolute;
+	color:black;
+	left:45%;
+	padding:1px;
+	background-color:white;
+	border-radius:5px ;
+	margin-bottom:10px;
+}
+
+.image{
+	
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:50%;
+	border:2px solid white;
+}
+p.b{
+    color:white;
+	text-align: center;
+	font-size:3rem;
+}
+p.c{
+	color: white;
+	font-size:20px;
+	text-align: center;
+}
+ul li.read a{
+	
+	
+    color:white;
+	border:1px solid white;
+
+}
+
+ul li.read a:hover{
+	background-color:white;
+    color:black;
+	
+}
+.read{
+		position:absolute;
+	     top:100%;
+	     left:50%;
+         transform:translate(-50%,-50%);
+		 
+}
+.imd{
+	position: relative;
+	left: 50%;
+	top: 100%;
+}
+h2{
+	color:#5273f8;
+	text-align:center;
+}
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+	gap: 2rem;
+	position:relative;
+	background-color: rgb(35, 36, 36);
+	
+color:white}
+#ma{
+	margin-top: 5%;
+}
+.box{
+	position: relative;
+	border: 0.2rem solid #5273f8;
+    background-color: rgb(35, 36, 36);
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+  
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+ 
+}
+	
+.blue{
+	color:#5273f8;
+}
+progress{
+	background:#efefef;
+	width:500px;
+	border-radius:7px;
+	height:10px;
+	max-width:100%;
+	
+	margin-left:2%;
+	
+	
+}
+.contact{
+	position:absolute;
+	top:50;
+}
+.maina{
+	background:white;
+	color:black;
+	border-radius:7px;
+}
+progress{
+	-webkit-appearance: none;
+	
+}
+progress::-webkit-progress-value{
+	background: #5273f8;
+}
+@media (max-height: 550px) {
+	html{
+		font-size: 10px;
+	}
+p.b{
+	font-size: 2.5rem;
+}
+p.c{
+	font-size: 15px;
+}
+section.home{
+	height: 500px;
+}
+}
